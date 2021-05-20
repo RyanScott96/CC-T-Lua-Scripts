@@ -1,4 +1,8 @@
-tree = {}
+if not turtle then
+    return error("Only avialable for turtles.")
+end
+
+local tree = {}
 
 function tree.cut(config)
     local z = 0
