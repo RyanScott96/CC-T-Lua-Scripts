@@ -3,7 +3,7 @@ if not turtle then
 end
 
 function turtle.go(num)
-	for i=0,num,1 do
+	for i = 0, num, 1 do
 		turtle.forward()
 	end
 end
