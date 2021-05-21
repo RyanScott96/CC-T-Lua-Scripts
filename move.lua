@@ -20,7 +20,7 @@ function turtle.goRight(num)
 end
 
 function turtle.goLeft(num)
-	turtle.turnRight()
+	turtle.turnLeft()
 	turtle.go(num)
 end
 
